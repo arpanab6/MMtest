@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="8" failures="0" name="com.mediamonks.TestRunner" time="174.952" errors="2" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
+    <property name="java.vm.version" value="25.271-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\vishalsharma4\eclipse-workspace\MMAssignment"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\vishalsharma4\eclipse-workspace\MMAssignment"/>
+    <property name="java.runtime.version" value="1.8.0_271-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\VISHAL~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\vishalsharma4\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf16937670690114290737.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_271\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/vishalsharma4/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932/jre/bin/server;C:/Users/vishalsharma4/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_14.0.2.v20200815-0932/jre/bin;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\RSA SecurID Token Common;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\PuTTY\;C:\Program Files\RSA SecurID Token Common\;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;C:\Users\vishalsharma4\.dotnet\tools;c:\users\vishalsharma4\OneDrive - KPMG\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\vishalsharma4"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="vishalsharma4"/>
+    <property name="java.class.path" value="C:\Users\vishalsharma4\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_271\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_271"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\vishalsharma4\eclipse-workspace\MMAssignment\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Adding Hotel Case" name="Adding Monks Palace" time="31.953"/>
+  <testcase classname="Adding Hotel Case" name="Visit Monks Palace Spanish Page" time="18.723"/>
+  <testcase classname="Hotel Room Booking Case" name="User should be able to book a hotel room" time="42.619">
+    <error message="Supplied function might have stalled
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;NL5CG8436D80&apos;, ip: &apos;10.219.13.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Supplied function might have stalled
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;NL5CG8436D80&apos;, ip: &apos;10.219.13.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:221)
+	at com.mediamonks.base.TestBase.waitUntilVisible(TestBase.java:29)
+	at com.mediamonks.pages.customer.HomePage.setDestination(HomePage.java:98)
+	at com.mediamonks.pages.customer.HomePage.makeASearch(HomePage.java:77)
+	at com.mediamonks.steps.HotelBookingSteps.user_makes_a_search_for_a_reservation_to_from_to_for_adult_and_children(HotelBookingSteps.java:40)
+	at ✽.User makes a search for a reservation to &quot;United Arab Emirates&quot; from &quot;16-02-2021&quot; to &quot;20-02-2021&quot; for 2 adult and 1 children(file:///C:/Users/vishalsharma4/eclipse-workspace/MMAssignment/src/test/resources/features/BookHotel.feature:10)
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1784)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at com.mediamonks.base.TestBase.waitUntilVisible(TestBase.java:29)
+	at com.mediamonks.pages.customer.HomePage.setDestination(HomePage.java:98)
+	at com.mediamonks.pages.customer.HomePage.makeASearch(HomePage.java:77)
+	at com.mediamonks.steps.HotelBookingSteps.user_makes_a_search_for_a_reservation_to_from_to_for_adult_and_children(HotelBookingSteps.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>
+Scenario: User should be able to book a hotel room                                                                                  # src/test/resources/features/BookHotel.feature:8
+[21/02/12 10:47:46] [INFO] [LoginSteps]: Navigating to login page and expecting page title to be &apos;Login&apos;
+  Given User navigates to login page                                                                                                # com.mediamonks.steps.LoginSteps.user_navigates_to_login_page()
+[21/02/12 10:47:55] [INFO] [LoginSteps]: Signing in as a customer with credentials email: user@phptravels.com , and password: demouser
+  When User fills the login form with &quot;user@phptravels.com&quot; email and &quot;demouser&quot; password                                           # com.mediamonks.steps.LoginSteps.user_fills_the_login_form_with_email_and_password(java.lang.String,java.lang.String)
+[21/02/12 10:47:55] [INFO] [LoginSteps]: Validating customer&apos;s name exists on the welcome message and the account dropdown
+  Then User see &quot;Demo User&quot; on the dashboard                                                                                        # com.mediamonks.steps.LoginSteps.user_see_on_the_dashboard(java.lang.String)
+[21/02/12 10:47:59] [INFO] [HotelBookingSteps]: Navigating to homepage
+  Given User navigates to HomePage                                                                                                  # com.mediamonks.steps.HotelBookingSteps.user_navigates_to_homepage()
+[21/02/12 10:47:59] [INFO] [HotelBookingSteps]: Making a hotel search with some specific preferences
+  When User makes a search for a reservation to &quot;United Arab Emirates&quot; from &quot;16-02-2021&quot; to &quot;20-02-2021&quot; for 2 adult and 1 children # com.mediamonks.steps.HotelBookingSteps.user_makes_a_search_for_a_reservation_to_from_to_for_adult_and_children(java.lang.String,java.lang.String,java.lang.String,int,int)
+      org.openqa.selenium.TimeoutException: Supplied function might have stalled
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;NL5CG8436D80&apos;, ip: &apos;10.219.13.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:221)
+	at com.mediamonks.base.TestBase.waitUntilVisible(TestBase.java:29)
+	at com.mediamonks.pages.customer.HomePage.setDestination(HomePage.java:98)
+	at com.mediamonks.pages.customer.HomePage.makeASearch(HomePage.java:77)
+	at com.mediamonks.steps.HotelBookingSteps.user_makes_a_search_for_a_reservation_to_from_to_for_adult_and_children(HotelBookingSteps.java:40)
+	at âœ½.User makes a search for a reservation to &quot;United Arab Emirates&quot; from &quot;16-02-2021&quot; to &quot;20-02-2021&quot; for 2 adult and 1 children(file:///C:/Users/vishalsharma4/eclipse-workspace/MMAssignment/src/test/resources/features/BookHotel.feature:10)
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1784)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at com.mediamonks.base.TestBase.waitUntilVisible(TestBase.java:29)
+	at com.mediamonks.pages.customer.HomePage.setDestination(HomePage.java:98)
+	at com.mediamonks.pages.customer.HomePage.makeASearch(HomePage.java:77)
+	at com.mediamonks.steps.HotelBookingSteps.user_makes_a_search_for_a_reservation_to_from_to_for_adult_and_children(HotelBookingSteps.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+  Then User see hotels are listed in &quot;Dubai&quot;                                                                                        # com.mediamonks.steps.HotelBookingSteps.user_see_hotels_are_listed_in(java.lang.String)
+  When User filters with only 4 star hotels                                                                                         # com.mediamonks.steps.HotelBookingSteps.user_filters_with_only_star_hotels(java.lang.Integer)
+  Then User see &quot;Oasis Beach Tower&quot; hotel is listed                                                                                 # com.mediamonks.steps.HotelBookingSteps.user_see_hotel_is_listed(java.lang.String)
+  Given User goes to hotel detail page                                                                                              # com.mediamonks.steps.HotelBookingSteps.user_goes_to_hotel_detail_page()
+  When User selects a room                                                                                                          # com.mediamonks.steps.HotelBookingSteps.user_selects_a_room()
+  And confirms the booking                                                                                                          # com.mediamonks.steps.HotelBookingSteps.confirms_the_booking()
+  Then User see the &quot;Booking Details&quot;                                                                                               # com.mediamonks.steps.HotelBookingSteps.user_see_the_booking_details(java.lang.String)
+  When User chooses to make purchase with pay on arrival option                                                                     # com.mediamonks.steps.HotelBookingSteps.user_chooses_to_make_purchase_with_pay_on_arrival_option()
+  Then User see &quot;Your booking status is Reserved&quot; message                                                                           # com.mediamonks.steps.HotelBookingSteps.user_see_message(java.lang.String)
+  And User can see the booking &quot;Reserved&quot; on their profile                                                                          # com.mediamonks.steps.HotelBookingSteps.user_can_see_the_booking_on_their_profile(java.lang.String)
+[21/02/12 10:48:14] [ERROR] [RESULT]: Test case has been FAILED
+
+    Embedding User_should_be_able_to_book_a_hotel_room [image/png 1007741 bytes]
+
+</system-out>
+    <system-err>Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 31959
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1613123264.753][WARNING]: This version of ChromeDriver has not been tested with Chrome version 88.
+Feb 12, 2021 10:47:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 12, 2021 10:47:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 88, so returning the closest version found: 86
+Feb 12, 2021 10:47:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 88 of 86
+</system-err>
+  </testcase>
+  <testcase classname="MediaMonks Login Test" name="Sign In And Update Profile" time="22.867"/>
+  <testcase classname="MediaMonks Login Test" name="Customer should not be able to login Admin Section" time="18.484"/>
+  <testcase classname="MediaMonks Login Test" name="Customer should not be able to login Supplier Section" time="13.888">
+    <error message="element click intercepted: Element &lt;div class=&quot;dropdown dropdown-login dropdown-tab&quot;&gt;...&lt;/div&gt; is not clickable at point (1745, 90). Other element would receive the click: &lt;div id=&quot;select2-drop-mask&quot; class=&quot;select2-drop-mask&quot; style=&quot;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=88.0.4324.150)
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;NL5CG8436D80&apos;, ip: &apos;10.219.13.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\VISHAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51972}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a6a4035ce41fe0dfe2b67f49d3cdf461" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;dropdown dropdown-login dropdown-tab&quot;&gt;...&lt;/div&gt; is not clickable at point (1745, 90). Other element would receive the click: &lt;div id=&quot;select2-drop-mask&quot; class=&quot;select2-drop-mask&quot; style=&quot;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=88.0.4324.150)
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;NL5CG8436D80&apos;, ip: &apos;10.219.13.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\VISHAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51972}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a6a4035ce41fe0dfe2b67f49d3cdf461
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:238)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at sun.reflect.GeneratedMethodAccessor37.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy21.click(Unknown Source)
+	at com.mediamonks.pages.customer.HomePage.navigateToRegisterPage(HomePage.java:67)
+	at com.mediamonks.steps.LoginSteps.user_is_registered_with_email_password_phone_full_name(LoginSteps.java:120)
+	at ✽.User is registered with &quot;arpanab1@gmail.com&quot; email, &quot;123456!@#&quot; password, &quot;9876512345&quot; phone, &quot;Arpana1 Bhardwaj&quot; full name(file:///C:/Users/vishalsharma4/eclipse-workspace/MMAssignment/src/test/resources/features/Login.feature:20)
+</error>
+    <system-out>
+Scenario: Customer should not be able to login Supplier Section                                                                   # src/test/resources/features/Login.feature:19
+[21/02/12 10:49:10] [INFO] [LoginSteps]: Opening a new customer account with valid credentials
+  When User is registered with &quot;arpanab1@gmail.com&quot; email, &quot;123456!@#&quot; password, &quot;9876512345&quot; phone, &quot;Arpana1 Bhardwaj&quot; full name # com.mediamonks.steps.LoginSteps.user_is_registered_with_email_password_phone_full_name(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;dropdown dropdown-login dropdown-tab&quot;&gt;...&lt;/div&gt; is not clickable at point (1745, 90). Other element would receive the click: &lt;div id=&quot;select2-drop-mask&quot; class=&quot;select2-drop-mask&quot; style=&quot;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=88.0.4324.150)
+Build info: version: &apos;4.0.0-alpha-7&apos;, revision: &apos;de8579b6d5&apos;
+System info: host: &apos;NL5CG8436D80&apos;, ip: &apos;10.219.13.189&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\VISHAL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51972}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a6a4035ce41fe0dfe2b67f49d3cdf461
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:123)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:501)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:238)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at sun.reflect.GeneratedMethodAccessor37.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy21.click(Unknown Source)
+	at com.mediamonks.pages.customer.HomePage.navigateToRegisterPage(HomePage.java:67)
+	at com.mediamonks.steps.LoginSteps.user_is_registered_with_email_password_phone_full_name(LoginSteps.java:120)
+	at âœ½.User is registered with &quot;arpanab1@gmail.com&quot; email, &quot;123456!@#&quot; password, &quot;9876512345&quot; phone, &quot;Arpana1 Bhardwaj&quot; full name(file:///C:/Users/vishalsharma4/eclipse-workspace/MMAssignment/src/test/resources/features/Login.feature:20)
+
+  Then User see &quot;Arpana1 Bhardwaj&quot; on the dashboard                                                                               # com.mediamonks.steps.LoginSteps.user_see_on_the_dashboard(java.lang.String)
+  Given User navigates to the supplier page                                                                                       # com.mediamonks.steps.LoginSteps.user_navigates_to_the_supplier_page()
+  When User fill the supplier login form with &quot;arpanab1@gmail.com&quot; email and &quot;123456!@#&quot; password                                 # com.mediamonks.steps.LoginSteps.user_fill_the_supplier_login_form_with_email_and_password(java.lang.String,java.lang.String)
+  Then User see &quot;Invalid Login Credentials&quot; message on the supplier page                                                          # com.mediamonks.steps.LoginSteps.user_see_message_on_the_supplier_page(java.lang.String)
+[21/02/12 10:49:19] [ERROR] [RESULT]: Test case has been FAILED
+
+    Embedding Customer_should_not_be_able_to_login_Supplier_Section [image/png 914173 bytes]
+
+</system-out>
+    <system-err>Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 44291
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1613123348.762][WARNING]: This version of ChromeDriver has not been tested with Chrome version 88.
+Feb 12, 2021 10:49:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Feb 12, 2021 10:49:10 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 88, so returning the closest version found: 86
+Feb 12, 2021 10:49:10 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 88 of 86
+</system-err>
+  </testcase>
+  <testcase classname="CMS Features Test" name="Create A New Page" time="18.884"/>
+  <testcase classname="CMS Features Test" name="Visit the New Page and Check SEO keys" time="7.534"/>
+</testsuite>
